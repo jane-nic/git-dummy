@@ -1,0 +1,61 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>git-dummy</title>
+  </head>
+  <body>
+  	<h1 id="title">Survey Form</h1>
+  	<div id="container">
+  		<div id="description"><p>This is a sample survey form.</p> </div>
+
+
+  		<form id="survey-form" method="get" action="">
+  			<div class="each-rows">
+  				<div class="each-lables"><label for="name">*Name :</label></div>
+  				<div class="each-input"><input autofocus type="text" name="name" id="name" placeholder="enter your name" required class="ip-field"></div>
+  			</div>
+
+
+  			<div class="each-rows">
+  				<div class="each-lables"><label for="email">*E-mail :</label></div>
+  				<div class="each-input"><input autofocus type="email" name="email" id="email"  placeholder="eg.., jane@gmail.com" pattern required class="ip-field" ></div>
+  			</div>
+
+
+
+  			<div class="each-rows">
+  				<div class="each-lables"><label for="age"></label>*Age : </div>
+  				<div class="each-input"><input autofocus type="number" name="age" placeholder="enter your age" required class="ip-field" > </div>
+  			</div>
+
+
+  			<div class="each-rows">
+  				<div class="each-lables">Which type of sport do you play everyday? </div>
+  				<div class="each-input"><select class="ip-field" required style="max-width: 150% ; height:auto; padding:10px; color: rgb(138, 146, 150)">
+  					<option>indoor</option>
+  					<option>outdoor</option>
+  					<option>both</option>
+  					<option>none</option>
+
+  				</select> </div>
+  			</div>
+
+  			<div class="each-rows">
+  				<div class="each-lables"><label for="Gender">Gender :</label></div>
+  				<div class="each-input"><input type="radio" name="Gender" id="Gender" value="male" required class="ip-field">male </div>
+  				<div class="each-input"><input type="radio" name="Gender" id="Gender" value="female" required  class="ip-field">female </div>
+  			</div>
+
+  			<div class="each-rows">
+  				<div class="each-lables"><label for="comments">Type any comments or ideas  </label> </div>
+  				<div class="each-input"><textarea class="ip-field" id="comments" placeholder="type your suggestions here..."></textarea> </div>
+  			</div>
+
+  			<button type="submit" >Submit</button>
+  		</div>
+
+  		</form>  	
+
+  </body>
+</html>
